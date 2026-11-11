@@ -45,9 +45,10 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('LKUP_SQL_WATERMARK_TABLE').output",
+						"value": "@activity('LKUP_SQL_WATERMARK_TABLE').output.value",
 						"type": "Expression"
 					},
+					"isSequential": false,
 					"activities": [
 						{
 							"name": "EXEC_SQL_INCREMENT",
