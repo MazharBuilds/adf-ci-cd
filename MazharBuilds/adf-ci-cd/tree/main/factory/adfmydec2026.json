@@ -1,0 +1,15 @@
+{
+	"name": "adfmydec2026",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2d100dca-39fc-4486-816d-981bd98e242a",
+		"tenantId": "3f4198c0-8e1c-4144-a684-7c160df2bab8"
+	}
+}

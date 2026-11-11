@@ -1,0 +1,13 @@
+{
+	"name": "DS_LKUP_SQLTABLE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_LKUP_SQLTABLE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

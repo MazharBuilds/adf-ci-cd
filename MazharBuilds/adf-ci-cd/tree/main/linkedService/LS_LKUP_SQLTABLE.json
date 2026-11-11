@@ -1,0 +1,21 @@
+{
+	"name": "LS_LKUP_SQLTABLE",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-OCJS95GK\\SQLEXPRESS",
+			"database": "sqlmigration",
+			"encrypt": "optional",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "max",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhN2FhOTM3My0zZGExLTQ0MDgtYWY3Ni0xMjA3YTViZmJlMGEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

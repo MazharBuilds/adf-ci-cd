@@ -1,0 +1,55 @@
+{
+	"name": "CHILE PIPELINE SP",
+	"properties": {
+		"activities": [
+			{
+				"name": "SP_UPDATE_WATERMARK",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[UpdateWatermark]",
+					"storedProcedureParameters": {
+						"TableName": {
+							"value": "",
+							"type": "String"
+						},
+						"TableSchema": {
+							"value": "",
+							"type": "String"
+						},
+						"WatermarkColumn": {
+							"value": "",
+							"type": "String"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_LKUP_SQL_WATERMARK_TABLE",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"parameters": {
+			"TableSchema": {
+				"type": "string"
+			},
+			"TableName": {
+				"type": "string"
+			},
+			"WatermarkColumn": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2026-11-10T14:35:13Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
