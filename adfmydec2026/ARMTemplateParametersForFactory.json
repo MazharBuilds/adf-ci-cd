@@ -1,0 +1,225 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfmydec2026"
+		},
+		"DS_MULTIPLEOUTPUTCSV_accountKey": {
+			"value": ""
+		},
+		"DS_SQLSINK_accountKey": {
+			"value": ""
+		},
+		"LS_CSVTRIGGER_accountKey": {
+			"value": ""
+		},
+		"LS_CSVTRIGGEROUTPUT_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_SOURCE_accountKey": {
+			"value": ""
+		},
+		"LS_GETCSV_accountKey": {
+			"value": ""
+		},
+		"LS_LKUP_MAX_VALUE_password": {
+			"value": ""
+		},
+		"LS_LKUP_SQLTABLE_password": {
+			"value": ""
+		},
+		"LS_LKUP_SQL_WATERMARK_TABLE_password": {
+			"value": ""
+		},
+		"LS_MULTIPLECSV_accountKey": {
+			"value": ""
+		},
+		"LS_RESTAPI_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_SINKPAR_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_CSV1_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_PARVQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCECSV_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCECSV1_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_TABLE_LKUP_password": {
+			"value": ""
+		},
+		"LS_SQLSINK_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSINK1_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSOURCE_password": {
+			"value": ""
+		},
+		"LS_SQLSOURCE1_password": {
+			"value": ""
+		},
+		"LS_SQLTABLE_PARQUET_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"DS_MULTIPLEOUTPUTCSV_properties_typeProperties_url": {
+			"value": "https://adlssink01.dfs.core.windows.net/"
+		},
+		"DS_SQLSINK_properties_typeProperties_url": {
+			"value": "https://adlscsvsink.dfs.core.windows.net/"
+		},
+		"LS_CSVTRIGGER_properties_typeProperties_url": {
+			"value": "https://adlscsvsource001.dfs.core.windows.net/"
+		},
+		"LS_CSVTRIGGEROUTPUT_properties_typeProperties_url": {
+			"value": "https://adlscsvsink.dfs.core.windows.net/"
+		},
+		"LS_CSV_SINK_properties_typeProperties_url": {
+			"value": "https://adlscsvsink.dfs.core.windows.net/"
+		},
+		"LS_CSV_SOURCE_properties_typeProperties_url": {
+			"value": "https://adlscsvsource001.dfs.core.windows.net/"
+		},
+		"LS_GETCSV_properties_typeProperties_url": {
+			"value": "https://adlscsvsource001.dfs.core.windows.net/"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "LAPTOP-OCJS95GK\\SQLEXPRESS"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "max"
+		},
+		"LS_LKUP_SQLTABLE_properties_typeProperties_server": {
+			"value": "LAPTOP-OCJS95GK\\SQLEXPRESS"
+		},
+		"LS_LKUP_SQLTABLE_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_LKUP_SQLTABLE_properties_typeProperties_userName": {
+			"value": "max"
+		},
+		"LS_LKUP_SQL_WATERMARK_TABLE_properties_typeProperties_server": {
+			"value": "LAPTOP-OCJS95GK\\SQLEXPRESS"
+		},
+		"LS_LKUP_SQL_WATERMARK_TABLE_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_LKUP_SQL_WATERMARK_TABLE_properties_typeProperties_userName": {
+			"value": "max"
+		},
+		"LS_MULTIPLECSV_properties_typeProperties_url": {
+			"value": "https://adlscsvsource001.dfs.core.windows.net/"
+		},
+		"LS_RESTAPI_SINK_properties_typeProperties_url": {
+			"value": "https://adlscsvsink.dfs.core.windows.net/"
+		},
+		"LS_SINK_properties_typeProperties_url": {
+			"value": "https://adlssink01.dfs.core.windows.net/"
+		},
+		"LS_SINKPAR_properties_typeProperties_url": {
+			"value": "https://adlscsvsink.dfs.core.windows.net/"
+		},
+		"LS_SINK_CSV_properties_typeProperties_url": {
+			"value": "https://adlscsvsink.dfs.core.windows.net/"
+		},
+		"LS_SINK_CSV1_properties_typeProperties_url": {
+			"value": "https://adlscsvsource001.dfs.core.windows.net/"
+		},
+		"LS_SINK_PARVQUET_properties_typeProperties_url": {
+			"value": "https://adlscsvsink.dfs.core.windows.net/"
+		},
+		"LS_SOURCECSV_properties_typeProperties_url": {
+			"value": "https://adlscsvsource001.dfs.core.windows.net/"
+		},
+		"LS_SOURCECSV1_properties_typeProperties_url": {
+			"value": "https://adlscsvsource001.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_CSV_properties_typeProperties_url": {
+			"value": "https://adlscsvsource001.dfs.core.windows.net/"
+		},
+		"LS_SQLSERVER_properties_typeProperties_server": {
+			"value": "LAPTOP-OCJS95GK\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "max"
+		},
+		"LS_SQLSERVER_TABLE_LKUP_properties_typeProperties_server": {
+			"value": "LAPTOP-OCJS95GK\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_TABLE_LKUP_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQLSERVER_TABLE_LKUP_properties_typeProperties_userName": {
+			"value": "max"
+		},
+		"LS_SQLSINK_properties_typeProperties_url": {
+			"value": "https://adlscsvsink.dfs.core.windows.net/"
+		},
+		"LS_SQLSINK1_properties_typeProperties_url": {
+			"value": "https://adlscsvsink.dfs.core.windows.net/"
+		},
+		"LS_SQLSOURCE_properties_typeProperties_server": {
+			"value": "LAPTOP-OCJS95GK\\SQLEXPRESS"
+		},
+		"LS_SQLSOURCE_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQLSOURCE_properties_typeProperties_userName": {
+			"value": "max"
+		},
+		"LS_SQLSOURCE1_properties_typeProperties_server": {
+			"value": "LAPTOP-OCJS95GK\\SQLEXPRESS"
+		},
+		"LS_SQLSOURCE1_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQLSOURCE1_properties_typeProperties_userName": {
+			"value": "max"
+		},
+		"LS_SQLTABLE_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlscsvsink.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "LAPTOP-OCJS95GK\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "max"
+		}
+	}
+}
